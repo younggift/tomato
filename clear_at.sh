@@ -6,7 +6,7 @@ if [ -z "$task" ]; then
     exit 0
 fi
 
-for t in $task //遍历数组
+for t in $task #遍历数组
 do
     atrm $t
 done
